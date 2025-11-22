@@ -12,7 +12,7 @@ if [ $# -eq 2 ]; then
      elif [ "$1" == "del" ]; then
       del_number=$2
       num=$(wc -l < tasks.txt)
-     if [ $del_number -gt $num ]; then
+     if [ "$del_number" -gt "$num" ]; then
         echo "Error: The number doesn't exist"
         exit 1
         else

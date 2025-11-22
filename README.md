@@ -1,1 +1,1 @@
-Terminal To-Do List Application
+TERMINAL TO DO LIST APPLICATION
