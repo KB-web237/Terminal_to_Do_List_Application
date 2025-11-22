@@ -1,1 +1,1 @@
-TERMINAL TO DO LIST APPLICATION
+# Terminal To-Do List Application
