@@ -11,7 +11,8 @@ if [ $# -eq 2 ]; then
       echo "Task added:$line_num. $2"
      elif [ "$1" == "del" ]; then
       del_number=$2
-     if [ $del_number -gt $(wc -l < tasks.txt) ]; then
+      num=$(wc -l < tasks.txt)
+     if [ $del_number -gt $num ]; then
         echo "Error: The number doesn't exist"
         exit 1
         else
