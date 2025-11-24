@@ -1,5 +1,4 @@
 #!/bin/bash
-
 if [ $# -eq 2 ]; then
     if [ "$1" == "add" ]; then
         if [ -f tasks.txt ]; then
