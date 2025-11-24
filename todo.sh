@@ -9,7 +9,7 @@ if [ $# -eq 2 ]; then
         fi
 
         line_num=$((num_line + 1))
-        echo "$line_num. $2" >> tasks.txt
+        echo ". $2" >> tasks.txt
         echo "Task added: $line_num. $2"
 
     elif [ "$1" == "del" ]; then
