@@ -6,7 +6,6 @@ if [ $# -eq 2 ]; then
         else
             num_line=0
         fi
-
         line_num=$((num_line + 1))
         echo ". $2" >> tasks.txt
         echo "Task added: $line_num. $2"
