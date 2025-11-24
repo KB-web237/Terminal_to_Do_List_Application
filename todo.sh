@@ -22,6 +22,7 @@ if [ $# -eq 2 ]; then
         else
             sed -i "${del_number}d" tasks.txt
             echo "Deleted task number $del_number"
+            
         fi
     fi
 
