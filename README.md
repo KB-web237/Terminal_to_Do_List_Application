@@ -31,6 +31,7 @@ It allows you to **add**, **list**, and **delete** tasks stored in text file
 ## Example Output
 ### screenshot
 ![Terminal Output](images/terminal_output.png)
+
 *This is a screenshot showing how to add, del, and list*
 
 ``` bash
