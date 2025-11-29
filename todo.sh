@@ -29,5 +29,5 @@ elif [ "$1" == "list" ]; then
     cat -n tasks.txt
 
 else
-    echo "Usage: '$0 add task' or '$0 list' or '$0 del number'"
+    echo -e "Usage: \nTo add a Task: $0 add \"task\"  \nTo list tasks: $0 list \nTo delete a task: $0 del task_number"
 fi
