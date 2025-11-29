@@ -3,10 +3,10 @@ This is a simple command-line **Terminal to-do List Application** written in Bas
 It allows you to **add**, **list**, and **delete** tasks stored in text file
 `tasks.txt`.
 ## Features
--   Add tasks with automatic numbering\
--   List all tasks with line numbers\
--   Delete tasks by number\
--   Automatically creates `tasks.txt` if it doesn't exist
+- Add tasks with automatic numbering\
+- List all tasks with line numbers\
+- Delete tasks by number\
+- Automatically creates `tasks.txt` if it doesn't exist
 ## Files
 **todo.sh** ---The main script\
 **tasks.txt** ---stores your tasks
@@ -45,4 +45,4 @@ Deleted task number 2
 ```
 ## Requirements to run the app
 - Bash shell\
-- Linux or macOs
+- Linux or macOS
