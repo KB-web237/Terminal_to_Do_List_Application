@@ -28,7 +28,11 @@ It allows you to **add**, **list**, and **delete** tasks stored in text file
 ./todo.sh del task_number
 ```
 
-## Example Session
+## Example Output
+### screenshot
+![Terminal Output](images/terminal_output.png)
+*This is a screenshot showing how to add, del, and list*
+
 ``` bash
 $ ./todo.sh add "Do my HomeWork"
 Task added: 1. Do my HomeWork

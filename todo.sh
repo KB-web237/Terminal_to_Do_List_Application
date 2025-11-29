@@ -30,5 +30,5 @@ elif [ "$1" == "list" ]; then
 
 else
 	#usage message
-	echo -e "Usage: \nTo add a Task: $0 add \"task\"  \nTo list tasks: $0 list \nTo delete a task: $0 del task_number"
+	echo -e "Usage: \nTo add a Task: $0 add \"task description\"  \nTo list tasks: $0 list \nTo delete a task: $0 del task_number"
 fi
