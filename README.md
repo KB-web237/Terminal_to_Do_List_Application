@@ -38,12 +38,16 @@ It allows you to **add**, **list**, and **delete** tasks stored in text file
 $ ./todo.sh add "Do my HomeWork"
 Task added: 1. Do my HomeWork
 
-$ ./todo.sh add "Do all my assignments on time"
-Task added: 2. Do all my assignments on time
+$ ./todo.sh add "Buy Milk"
+Task added: 2. Buy Milk
+
+$ ./todo.sh add "Study bash Programming"
+Task added: 3. Study bash Programming
 
 $ ./todo.sh list
      1  . Do my HomeWork
-     2  . Do all my assignments on time
+     2  . Buy Milk
+     3  . Study bash Programming
 
 $ ./todo.sh del 2
 Deleted task number 2
